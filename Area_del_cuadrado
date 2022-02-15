@@ -1,0 +1,22 @@
+using System;
+using System.Linq;
+using System.Collections;
+using System.Collections.Generic;
+namespace areacuadrado
+{
+    class program
+    {
+        static void Main(string[] args)
+        {
+            float area = 0;
+            float Ladodelcuadrado = 0;
+
+
+            Console.WriteLine("Escriba el lado del cuadrado");
+            Ladodelcuadrado = float.Parse(System.Console.ReadLine());
+            area = Ladodelcuadrado*Ladodelcuadrado;
+            
+            Console.WriteLine("El area del cuadrado es {0}", area);
+        }
+    }
+}
