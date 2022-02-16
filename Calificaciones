@@ -32,8 +32,8 @@ namespace Caliificacion
             MAXIMA_CALIFICACION = 50;
             MINIMA_CALIFICACION = 30;
            
-            Console.WriteLine("El MINIMA_CALIFICACION es {0}", MAXIMA_CALIFICACION);
-            Console.WriteLine("El MINIMA_CALIFICACION es {0}", MINIMA_CALIFICACION);
+            Console.WriteLine("LA MAXIMA_CALIFICACION es {0}", MAXIMA_CALIFICACION);
+            Console.WriteLine("LA MINIMA_CALIFICACION es {0}", MINIMA_CALIFICACION);
             Console.WriteLine("El promedio es {0}", promedio);
         }
 
